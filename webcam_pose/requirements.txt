@@ -1,0 +1,7 @@
+# 相机标定与位姿估计所需的最小依赖
+# 需要 OpenCV >= 4.7：CharucoDetector / CharucoBoard.matchImagePoints 是 4.7 才有的新 API
+numpy>=1.21
+opencv-python>=4.7
+
+# 仅 make_board.py 生成打印用 PDF 时需要
+Pillow>=9.0

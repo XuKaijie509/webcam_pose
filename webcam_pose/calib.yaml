@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+format: webcam_pose/calib-v1
+image_width: 1280
+image_height: 720
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 799.53613690199074, 0., 620.99088278750196, 0.,
+       800.19943845216449, 413.14790615209563, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.01614022315983768, 0.06725390951930732,
+       0.023844307470184761, -0.0025828010706304937,
+       -0.35286002632425684 ]
+rms: 0.86816830577670778
+n_views: 15
+square_mm: 21.
+squares_x: 5
+squares_y: 7
+dictionary: DICT_5X5_100
+board_meta: "board/charuco_a4.json"
